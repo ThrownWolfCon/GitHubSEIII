@@ -1,0 +1,17 @@
+created: 20220204210450535
+modified: 20261022235209970
+tags: [[git command]]
+title: git merge
+type: text/vnd.tiddlywiki
+
+[[Open This|git merge]]
+
+---
+
+`git merge <branch_name>`
+
+`git merge --abort`
+
+<<<
+See: [[git branching]]
+<<<

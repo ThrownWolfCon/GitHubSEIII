@@ -1,0 +1,9 @@
+created: 20220204204205613
+modified: 20220204204254930
+tags: [[git command]]
+title: git --version
+type: text/vnd.tiddlywiki
+
+gives the git version
+
+`git --version`

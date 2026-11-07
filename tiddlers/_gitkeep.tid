@@ -1,0 +1,9 @@
+created: 20220204205551957
+modified: 20220204205645921
+tags: [[git command]]
+title: .gitkeep
+type: text/vnd.tiddlywiki
+
+Git only tracks files, not folders.
+
+touch .gitkeep

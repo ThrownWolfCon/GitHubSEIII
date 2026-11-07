@@ -1,0 +1,13 @@
+created: 20261027213155691
+modified: 20261027214233917
+tags: [[git config --global]]
+title: git config --global user.name
+type: text/vnd.tiddlywiki
+
+[[Open This|git config --global user.name]]
+
+---
+
+```
+git config --global user.email "michael@thrownwolf.com"
+```

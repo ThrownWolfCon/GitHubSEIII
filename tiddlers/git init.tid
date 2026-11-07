@@ -1,0 +1,13 @@
+created: 20220204204418271
+modified: 20261022191821855
+tags: [[git command]]
+title: git init
+type: text/vnd.tiddlywiki
+
+[[Open This|git init]]
+
+---
+
+first thing you run to initialize git in a folder.
+
+`git init`

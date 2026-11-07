@@ -1,0 +1,22 @@
+created: 20261028175731652
+modified: 20261028180312421
+tags: [[git command]]
+title: git diff
+type: text/vnd.tiddlywiki
+
+[[Open This|git diff]]
+
+---
+
+to see what you changed and can just ftp that up!
+
+```bash
+git diff --name-only HEAD~1
+```
+
+Example:
+
+```bash
+thrownwolf@thrownwolf-5570:~/SITEBUCKET$ git diff --name-only HEAD~1
+includes/banner.php
+```

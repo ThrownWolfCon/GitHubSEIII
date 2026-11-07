@@ -1,0 +1,24 @@
+created: 20220211001523026
+modified: 20261022202931715
+tags: [[git command]]
+title: git push
+type: text/vnd.tiddlywiki
+
+[[Open This|git push]]
+
+---
+
+`git push`
+
+`git push master`
+
+```bash
+thrownwolf@thrownwolf-5570:~/gitgoing/GitGoing$ git push origin update-name
+
+Username for 'https://github.com': ThrownWolfCon
+
+Password for 'https://ThrownWolfCon@github.com': 
+
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/LadyKerr/GitGoing.git/'
+```

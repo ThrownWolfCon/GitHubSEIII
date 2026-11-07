@@ -1,0 +1,32 @@
+created: 20261026033123052
+modified: 20261027212707981
+tags: [[git config]]
+title: git config list
+type: text/vnd.tiddlywiki
+
+[[Open This|git config list]]
+
+---
+
+```ini
+~/.../TWW/grafana $ git config list
+
+user.name=thrownphone
+user.email=michael@thrownwolf.com
+safe.directory=/storage/emulated/0/Documents/gitfolder
+safe.directory=/storage/emulated/0/Documents/TWW/grafana
+credential.https://github.com.helper=
+credential.https://github.com.helper=!/data/data/com.termux/files/usr/bin/gh auth git-credential
+credential.https://gist.github.com.helper=
+credential.https://gist.github.com.helper=!/data/data/com.termux/files/usr/bin/gh auth git-credential
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/ThrownWolfCon/ThrownGrafana.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
+```

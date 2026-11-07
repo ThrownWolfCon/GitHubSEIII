@@ -1,0 +1,38 @@
+created: 20220204204448839
+modified: 20261022193742610
+tags: [[git command]]
+title: git config
+type: text/vnd.tiddlywiki
+
+[[Open This|git config]]
+
+---
+
+`git config --global user.name "Michael Hart"`
+
+`git config --global user.email "hartsoffice@gmail.com"`
+
+```bash
+git config --global alias.i init
+
+git i #not this inits!
+```
+
+See what your configs are:
+
+<<<
+<<copy-to-clipboard "git config --list --show-origin">>
+
+`git config --list --show-origin`
+<<<
+
+!!GIT NEEDS A NAME AND EMAIL!
+
+```bash
+...
+file:C:/Users/Hart/.gitconfig   filter.lfs.process=git-lfs filter-process
+file:C:/Users/Hart/.gitconfig   filter.lfs.required=true
+file:C:/Users/Hart/.gitconfig   user.name=Michael Hart
+file:C:/Users/Hart/.gitconfig   user.email=hartsoffice@gmail.com
+```
+

@@ -1,0 +1,17 @@
+created: 20220204205443445
+modified: 20261026170911560
+tags: [[git command]]
+title: git log
+type: text/vnd.tiddlywiki
+
+[[Open This|git log]]
+
+---
+
+`git log` (history)
+
+`git log --patch` what does this do?
+
+`git log --reverse`
+
+`git log -4`

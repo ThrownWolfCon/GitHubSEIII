@@ -1,0 +1,9 @@
+created: 20220204205155515
+modified: 20220204205313173
+tags: [[git command]]
+title: git Unstaging
+type: text/vnd.tiddlywiki
+
+[[git status]]
+
+[[git reset]] HEAD readme.md

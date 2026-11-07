@@ -1,0 +1,19 @@
+created: 20220211000301848
+modified: 20221212175935771
+tags: [[git command]]
+title: git remote
+type: text/vnd.tiddlywiki
+
+[[git remote]]
+
+---
+
+If you have not cloned an existing repository and want to connect your repository to a remote server, you need to add it with
+
+`git remote add origin <server>`
+
+Now you are able to push your changes to the selected remote server
+
+<<<See what remotes you have!
+`git remote -v`
+<<<

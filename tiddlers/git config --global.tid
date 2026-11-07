@@ -1,0 +1,19 @@
+created: 20261027212909691
+modified: 20261027213038967
+tags: [[git config]]
+title: git config --global
+type: text/vnd.tiddlywiki
+
+[[Open This|git config --global]]
+
+---
+
+```bash
+git config --global user.name "thrownphone"
+
+git config --global user.email "michael@thrownwolf.com"
+
+git config --global --add safe.directory /storage/emulated/0/Documents/gitfolder
+
+git config --global --add safe.directory /storage/emulated/0/Documents/TWW/grafana
+```

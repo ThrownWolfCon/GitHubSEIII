@@ -1,0 +1,13 @@
+created: 20261027214252330
+modified: 20261027214321063
+tags: [[git config --global]]
+title: git config --global --add safe.directory
+type: text/vnd.tiddlywiki
+
+[[Open This|git config --global --add safe.directory]]
+
+---
+
+```
+git config --global --add safe.directory /storage/emulated/0/Documents/gitfolder
+```

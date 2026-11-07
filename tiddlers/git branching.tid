@@ -1,0 +1,10 @@
+created: 20220211200630254
+modified: 20220211201235025
+tags: [[git command]]
+title: git branching
+type: text/vnd.tiddlywiki
+
+|[[git checkout]]|Create a branch, goto branch or master.|
+|[[git branch]]|So far how to delete branch.|
+|[[git merge]]|Appears need to bring in branch while in master.|
+|||

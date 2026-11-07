@@ -1,0 +1,11 @@
+created: 20220204205906347
+modified: 20261023031924182
+tags: [[git command]]
+title: .gitignore
+type: text/vnd.tiddlywiki
+
+[[Open This|.gitignore]]
+
+---
+
+Config file, list things to ignore, file itself must be in the repo.

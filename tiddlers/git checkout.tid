@@ -1,0 +1,9 @@
+created: 20220204210106548
+modified: 20220204210226449
+tags: [[git command]]
+title: git checkout
+type: text/vnd.tiddlywiki
+
+`git checkout -b <branch_name>` create a branch.
+
+`git checkout master`

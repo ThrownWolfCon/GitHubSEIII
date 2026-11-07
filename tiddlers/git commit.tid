@@ -1,0 +1,7 @@
+created: 20220204204654389
+modified: 20220204204748513
+tags: [[git command]]
+title: git commit
+type: text/vnd.tiddlywiki
+
+`git commit -m "xxxxx"`

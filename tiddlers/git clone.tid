@@ -1,0 +1,38 @@
+created: 20220211000023710
+modified: 20261022194750631
+tags: [[git command]]
+title: git clone
+type: text/vnd.tiddlywiki
+
+[[git clone]]
+
+---
+
+`git clone /path/to/repo`
+
+```bash
+git clone https://github.com/LadyKerr/GitGoing.git
+
+Cloning into 'GitGoing'...
+remote: Enumerating objects: 60, done.
+remote: Counting objects: 100% (24/24), done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 60 (delta 13), reused 9 (delta 9), pack-reused 36 (from 1)
+Receiving objects: 100% (60/60), 23.49 KiB | 1.38 MiB/s, done.
+Resolving deltas: 100% (18/18), done.
+
+thrownwolf@thrownwolf-5570:~/gitgoing$ ls
+GitGoing
+
+thrownwolf@thrownwolf-5570:~/gitgoing$ cd GitGoing/
+
+thrownwolf@thrownwolf-5570:~/gitgoing/GitGoing$ ls
+LICENSE  README.md  index.html  script.js  style.css
+
+thrownwolf@thrownwolf-5570:~/gitgoing/GitGoing$ cat README.md 
+# GitGoing 🏃🏽‍♀️💨
+GitGoing is a beginner-friendly project focused on tracking progress and learning how to use git and GitHub.
+
+## Getting Started 🛠️
+...
+```

@@ -1,0 +1,10 @@
+created: 20220204210301051
+modified: 20220204210440935
+tags: [[git command]]
+title: git branch
+type: text/vnd.tiddlywiki
+
+`git branch -d <branch_name>` delete if possible
+
+`git branch -D <branch_name>` force delete
+
