@@ -1,5 +1,5 @@
 created: 20261107162043606
-modified: 20261107202622975
+modified: 20261107211111124
 tags: 
 title: Dashboard
 type: text/vnd.tiddlywiki
@@ -8,17 +8,11 @@ type: text/vnd.tiddlywiki
 
 ---
 
+[img width=60% [./files/images/michael hart_26-10-20_Grafana_1140.jpg]]
+[img width=60% [./files/images/logo-03.cc5e5332.png]]
+
 Support Engineer III
 
-https://www.indeed.com/viewjob?jk=163477fa46adbfba&tk=1k6qunrtcr4ag801&from=jobi2a_jobmatch-reactivation-en-US_email&rjptk=1k6qunqsgp79m802&xpse=SoCO67I2cbQ1wJyg4x0LbzkdCdPP&xfps=fc939014-b546-4c08-baac-e2efc165bf5a&xkcb=SoAU67M2ca1Qdmay6p0LbzkdCdPP
-
-Full job description
-About GitHub: GitHub is the world’s leading platform for agentic software development — powered by Copilot to build, scale, and deliver secure software. Over 180 million developers, including more than 90% of the Fortune 100 companies, use GitHub to collaborate, and more than 77,000 organisations have adopted GitHub Copilot.
-
-Locations: In this role you can work from Remote, United States
-
-Overview:
-GitHub is growing its Support Engineering team and we're seeking experienced professionals to elevate our technical customer support efforts. As a Support Engineer III, you will manage support tickets, identify and report bugs, and contribute to innovative product developments. The ideal candidate will drive impactful improvements in customer support by fostering teamwork, collaboration, and adaptability. Their initiative and contributions will be crucial in streamlining support processes and enhancing team efficiency. This role will require working non-standard working hours, including weekends and holidays.
 
 <$linkcatcher actions="<$action-sendmessage $message='tm-modal' $param=<<navigateTo>>/>">
 <div class="modal-links">
@@ -27,67 +21,3 @@ GitHub is growing its Support Engineering team and we're seeking experienced pro
 </div>
 </div>
 </$linkcatcher>
-
-
-
-
-
-[[6. Knowledge Attainment & Sharing]]
-
-
-    Takes deliberate steps toward becoming a subject matter expert in one or more areas. Actively seeks assistance in specialty areas. Acts as a SME of one or more categories within a squad.
-
-Qualifications:
-Required Qualifications:
-
-
-    5+ years' experience in technical customer support, technical writing, system administration, or related roles,
-
-        OR bachelor's degree in computer science or related field AND 3+ years' experience in technical customer support, technical writing, system administration, or related roles,
-
-        OR equivalent experience.
-
-    Ability to be On-Duty weekends and holidays on a rotation basis (8 hour shifts, during normal work hours).
-
-
-Preferred Qualifications:
-
-
-    Proficiency in using and troubleshooting Git, GitHub or similar version control systems, with a strong understanding of software development workflows and tools, such as CI/CD pipelines,code security, issue tracking systems, code editors/IDEs(e.g., VS Code, IntelliJ IDEA)
-
-    Experience performing Linux system administration and working experience with common tools like Docker, systemd, openssl, etc
-
-    Familiarity with production-level virtualization platforms and/or cloud providers (e.g., VMware ESX, KVM, AWS, Azure)
-
-    Experience in customer-service oriented environment, with strong teamwork, collaboration, adaptability, and initiative. Experience providing technical support to enterprise customers is required, along with exceptional verbal, written, organizational, presentation, and communication skills.
-
-Compensation Range: The base salary range for this job is USD $41.25 - USD $109.43 /Hr.
-
-These pay ranges are intended to cover roles based across the United States. An individual's base pay depends on various factors including geographical location and review of experience, knowledge, skills, abilities of the applicant. At GitHub certain roles are eligible for benefits and additional rewards, including annual bonus and stock. These rewards are allocated based on individual impact in role. In addition, certain roles also have the opportunity to earn sales incentives based on revenue or utilization, depending on the terms of the plan and the employee's role.
-
-This position will be open for a minimum of 3 days, with applications accepted on an ongoing basis until the position is filled.
-GitHub Leadership Principles:
-
-GitHub values
-
-    Customer-obsessed
-    Ship to learn
-    Growth mindset
-    Own the outcome
-    Better together
-    Diverse and inclusive
-
-Manager fundamentals
-
-    Model
-    Coach
-    Care
-
-Leadership principles
-
-    Create clarity
-    Generate energy
-    Deliver success
-
-
-

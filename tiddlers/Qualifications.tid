@@ -1,0 +1,17 @@
+created: 20261107204114471
+modified: 20261107204157811
+tags: Dashboard
+title: Qualifications
+type: text/vnd.tiddlywiki
+
+[[Open This|Qualifications]]
+
+---
+
+<$linkcatcher actions="<$action-sendmessage $message='tm-modal' $param=<<navigateTo>>/>">
+<div class="modal-links">
+<div class="tc-table-of-contents">
+<<toc-selective-expandable "Qualifications">>
+</div>
+</div>
+</$linkcatcher>
