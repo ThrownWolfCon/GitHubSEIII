@@ -1,5 +1,5 @@
 created: 20261107204244586
-modified: 20261108001917163
+modified: 20261108012456184
 tags: Qualifications
 title: Preferred Qualifications
 type: text/vnd.tiddlywiki
@@ -23,7 +23,7 @@ type: text/vnd.tiddlywiki
 
 * Experience performing Linux system administration
 * working experience with common tools like 
-** Docker
+** [[Docker]]
 ** systemd
 ** openssl
 ** etc

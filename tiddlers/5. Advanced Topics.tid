@@ -1,0 +1,17 @@
+created: 20250212020849329
+modified: 20250212021435101
+tags: [[Docker Interview]]
+title: 5. Advanced Topics
+type: text/vnd.tiddlywiki
+
+[[Open This|5. Advanced Topics]]
+
+---
+
+''Advanced Topics''
+
+* What is Docker Swarm?
+** Docker Swarm is native clustering for Docker. It turns a pool of Docker hosts into a single, virtual Docker host, making it easier to manage and scale containers in a distributed environment.
+
+* Can you describe how you would scale a Docker application?
+** Using Docker Swarm or Kubernetes, you can scale services by defining the number of replicas in your compose file or through command line tools like docker service scale.

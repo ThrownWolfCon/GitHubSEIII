@@ -1,0 +1,17 @@
+created: 20220827231259956
+modified: 20250613214207183
+tags: Docker
+title: docker terminal of a container
+type: text/vnd.tiddlywiki
+
+[[Open This|docker terminal of a container]]
+
+---
+
+https://www.thecodebuzz.com/how-to-explore-docker-containers-file-system/
+
+`docker exec -it <container> bash`
+
+use [[docker ps]] tp find the container id, for example my jenkins is: 
+
+`docker exec -it ce7ff9b6b2d7 bash`

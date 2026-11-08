@@ -1,0 +1,40 @@
+created: 20250212193415344
+modified: 20261108013709413
+tags: 
+title: docker build
+type: text/vnd.tiddlywiki
+
+[[Open This|docker build]]
+
+---
+
+This seems convoluted...
+
+The docker build command reads a Dockerfile and builds a Docker image based on the instructions in the file.
+
+Grok has a massive explanation if I ever care to go through it.....
+
+example:
+
+```bash
+cd dockerthings/
+ 
+mkdir ash
+
+cd ash
+
+cp -r /var/www/html/ash/* .
+
+ll #verify copy happened
+
+cat > Dockerfile << EOL
+FROM nginx:latest
+COPY . /usr/share/nginx/html/
+EOL
+
+docker build -t ash .
+
+docker images
+
+docker run -d --name potato -p 8111:80 ash:latest
+```

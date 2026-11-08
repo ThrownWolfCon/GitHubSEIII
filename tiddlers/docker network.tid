@@ -1,0 +1,46 @@
+created: 20250212195418827
+modified: 20250212203817371
+tags: 
+title: docker network
+type: text/vnd.tiddlywiki
+
+[[Open This|docker network]]
+
+---
+
+<<<List docker networks
+`docker network ls`
+<<<
+
+<<<Inspect docker network
+`docker network inspect bridge`
+
+Switch out bridge if you want.
+<<<
+
+<<<Create docker network
+```
+docker network create --driver <driver> <network-name>
+```
+<<<
+
+```
+Commands:
+  connect     Connect a container to a network
+  create      Create a network
+  disconnect  Disconnect a container from a network
+  inspect     Display detailed information on one or more networks
+  ls          List networks
+  prune       Remove all unused networks
+  rm          Remove one or more networks
+```
+
+List Available Network Drivers
+
+Docker's built-in drivers include:
+
+* ''bridge'': Default driver for single-host networking (creates a private network with NAT).
+* ''host'': Uses the host's network stack (no isolation).
+* ''overlay'': Used for multi-host networking in Docker Swarm.
+* ''macvlan'': Assigns a MAC address to each container, making it appear as a physical device on the network.
+* ''none'': Disables networking for a container.

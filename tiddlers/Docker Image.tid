@@ -1,0 +1,13 @@
+created: 20250307154312775
+modified: 20260524013315337
+tags: Docker
+title: Docker Image
+type: text/vnd.tiddlywiki
+
+[[Open This|Docker Image]]
+
+---
+
+[img[./files/images/docker/container-layers-diagram-update.png]]
+
+[[docker rmi]]

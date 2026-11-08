@@ -1,0 +1,21 @@
+created: 20250202180652755
+modified: 20261108013408032
+tags: Employment [[Skill: Docker]] Docker
+title: Docker Interview
+type: text/vnd.tiddlywiki
+
+[[Open This|Docker Interview]]
+
+---
+
+Here are some Docker-related questions you might encounter in a job interview:
+
+[[Install Docker in Ubuntu]]
+
+---
+
+<<tabs "[tag[Docker Interview]]" "SampleTabTwo" "$:/state/tab2" "tc-vertical">>
+
+---
+
+These questions cover a broad spectrum from basics to more advanced concepts, which should help demonstrate your knowledge in a Docker-related job interview. Remember, practical experience with Docker is invaluable, so be ready to discuss any projects or tasks where you've used Docker.

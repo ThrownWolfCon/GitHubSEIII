@@ -1,0 +1,41 @@
+created: 20250212032557868
+modified: 20250307202440536
+tags: 
+title: docker run
+type: text/vnd.tiddlywiki
+
+[[Open This|docker run]]
+
+---
+
+The docker run command creates a new container from a specified image and starts it. It combines docker create and docker start into a single command.
+
+Common options:
+
+`-d` or `--detach`: Run the container in the background (detached mode)).
+
+`-it`: Allocate a pseudo-TTY and keep STDIN open (interactive mode)).<br>
+Ex: `docker exec -it uptime-kuma /bin/bash`<br>
+[[docker terminal of a container]]
+
+`--name`: Assign a name to the container.
+
+`-p` or `--publish`: Map container ports to host ports (e.g., -p 8080:80).
+
+`-v` or `--volume`: Mount a volume (e.g., -v /host/path:/container/path).
+
+`-e` or `--env`: Set environment variables (e.g., -e MYSQL_ROOT_PASSWORD=mysecret).
+
+`--rm`: Automatically remove the container when it exits (useful for short-lived containers).
+
+`--network`: Connect the container to a specific network (e.g., --network my-network).
+
+!As many containers from an image as you want!
+
+```
+docker run -d --name container1 -p 8124:80 nginx
+
+docker run -d --name container2 -p 8125:80 nginx
+```
+
+`docker run [OPTIONS] IMAGE [COMMAND] [ARG...]`

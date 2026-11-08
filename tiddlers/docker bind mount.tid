@@ -1,0 +1,45 @@
+created: 20250212211104573
+modified: 20250212211508821
+tags: 
+title: docker bind mount
+type: text/vnd.tiddlywiki
+
+[[Open This|docker bind mount]]
+
+---
+
+`docker inspect komga`
+
+LOOK at "Mounts"
+
+```json
+"Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/media/aim/data/komga/config",
+                "Destination": "/config",
+                "Mode": "",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/media/aim/data/komga/data",
+                "Destination": "/data",
+                "Mode": "",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "volume",
+                "Name": "013f1643a0c4cd190c3578285e561c36730e0f64193c7309135457e03ed63f13",
+                "Source": "/var/lib/docker/volumes/013f1643a0c4cd190c3578285e561c36730e0f64193c7309135457e03ed63f13/_data",
+                "Destination": "/tmp",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+
+```

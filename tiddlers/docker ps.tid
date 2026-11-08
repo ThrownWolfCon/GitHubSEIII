@@ -1,0 +1,26 @@
+created: 20200805163934299
+modified: 20250307215435302
+tags: Docker
+title: docker ps
+type: text/vnd.tiddlywiki
+
+[[Open This|docker ps]]
+
+---
+
+<<copy-to-clipboard """
+docker ps
+""">>
+
+`docker ps`
+
+The docker `ps command` shows you all containers that are currently running.
+
+`docker ps --no-trunc | docker-color-output
+`
+
+<<tabs "[tag[docker ps]]" "SampleTabTwo" "$:/state/tab2" "tc-vertical">>
+
+See:
+
+<$button message="tm-modal" param="docker color output">docker color output</$button>

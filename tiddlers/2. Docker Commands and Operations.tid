@@ -1,0 +1,25 @@
+created: 20250211234414117
+modified: 20250212193627297
+tags: [[Docker Interview]]
+title: 2. Docker Commands and Operations
+type: text/vnd.tiddlywiki
+
+[[Open This|2. Docker Commands and Operations]]
+
+---
+
+''Docker Commands and Operations''
+
+* How does one build a Docker image?
+** With <$button message="tm-modal" param="docker build">docker build</$button> -t tagname ., where . refers to the directory containing the Dockerfile.
+* What command would you use to run a Docker container?
+** <$button message="tm-modal" param="docker run">docker run</$button> [OPTIONS] IMAGE [COMMAND] [ARG...]. For example, docker run -it ubuntu bash starts an interactive session with an Ubuntu container.
+* How do you manage Docker containers?
+** Key commands include:
+*** <$button message="tm-modal" param="docker ps">docker ps</$button> for listing running containers
+*** <$button message="tm-modal" param="docker stop">docker stop</$button> CONTAINER_ID for stopping a container
+*** <$button message="tm-modal" param="docker rm">docker rm</$button> CONTAINER_ID for removing a container
+*** <$button message="tm-modal" param="docker start">docker start</$button> CONTAINER_ID to start a stopped container
+
+* What is Docker Compose, and why might you use it?
+** <$button message="tm-modal" param="Docker Compose">Docker Compose</$button> is a tool for defining and running multi-container Docker applications. It uses a YAML file to configure application’s services, networks, and volumes. It simplifies development, testing, and deployment of multi-container applications.

@@ -1,0 +1,24 @@
+created: 20250211234558906
+modified: 20250212212734559
+tags: [[Docker Interview]]
+title: 3. Networking and Volumes
+type: text/vnd.tiddlywiki
+
+[[Open This|3. Networking and Volumes]]
+
+---
+
+''Networking and Volumes''
+
+* Explain Docker networking. <$button message="tm-modal" param="docker network">docker network</$button>
+** Docker provides several networking drivers:
+*** bridge - default network for containers to communicate with each other and the host.
+*** host - containers use the host's networking directly.
+*** overlay - for multi-host networking.
+*** macvlan - for assigning a MAC address to a container, making it appear as a physical device on your network.
+
+''How do you persist data in Docker?''
+
+<$button message="tm-modal" param="docker bind mount">docker bind mount</$button>
+
+Using Docker volumes or bind mounts. Volumes are managed by Docker and are stored outside the container's writable layer, ensuring data persistence even if containers are removed.

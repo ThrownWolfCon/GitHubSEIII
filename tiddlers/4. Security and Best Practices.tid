@@ -1,0 +1,24 @@
+created: 20250211234709741
+modified: 20250211234849096
+tags: [[Docker Interview]]
+title: 4. Security and Best Practices
+type: text/vnd.tiddlywiki
+
+[[Open This|4. Security and Best Practices]]
+
+---
+
+''Security and Best Practices''
+
+* What security features does Docker offer?
+** Docker provides namespace isolation, control groups for resource management, and capabilities for limiting system calls. There's also Docker Content Trust for image verification.
+
+''What are some Docker best practices?''
+
+* Use minimal base images to reduce attack surface
+* Keep your Dockerfiles clean and modular
+* Don't run containers as root unless necessary
+* Regularly update Docker images
+* Use .dockerignore to exclude unnecessary files
+* How do you handle logging in Docker containers?
+* Docker collects logs for each container by default, accessible via docker logs CONTAINER_ID. For persistent logging, you might integrate with logging drivers like json-file, syslog, or external solutions like ELK stack.
