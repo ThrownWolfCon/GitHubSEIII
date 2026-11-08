@@ -4,8 +4,4 @@ type: text/vnd.tiddlywiki
 
 The following tiddlers were imported:
 
-# [[sed: Change or Clobber]]
-# [[sed: Deletion]]
-# [[sed: Line-specific]]
-# [[sed: Negating Matches]]
-# [[sed: Substitution]]
+# [[Some CSS]]
