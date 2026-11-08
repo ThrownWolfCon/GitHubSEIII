@@ -1,0 +1,16 @@
+created: 20261107235252568
+modified: 20261108000257313
+title: issue tracking systems
+type: text/vnd.tiddlywiki
+
+[[Open This|issue tracking systems]]
+
+---
+
+<$linkcatcher actions="<$action-sendmessage $message='tm-modal' $param=<<navigateTo>>/>">
+<div class="modal-links">
+<div class="tc-table-of-contents">
+<<toc-selective-expandable "issue tracking systems">>
+</div>
+</div>
+</$linkcatcher>

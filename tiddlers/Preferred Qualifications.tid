@@ -1,5 +1,5 @@
 created: 20261107204244586
-modified: 20261107204408801
+modified: 20261108001917163
 tags: Qualifications
 title: Preferred Qualifications
 type: text/vnd.tiddlywiki
@@ -8,10 +8,42 @@ type: text/vnd.tiddlywiki
 
 ---
 
-    Proficiency in using and troubleshooting Git, GitHub or similar version control systems, with a strong understanding of software development workflows and tools, such as CI/CD pipelines,code security, issue tracking systems, code editors/IDEs(e.g., VS Code, IntelliJ IDEA)
+* Proficiency in using and troubleshooting Git, 
+** GitHub 
+** or similar version control systems
 
-    Experience performing Linux system administration and working experience with common tools like Docker, systemd, openssl, etc
+* strong understanding of
+** software development workflows and tools
+*** [[CI/CD Pipelines]]
+*** [[code security]]
+*** [[issue tracking systems]]
+*** code editors/IDEs
+**** [[VS Code]]
+**** [[IntelliJ IDEA]]
 
-    Familiarity with production-level virtualization platforms and/or cloud providers (e.g., VMware ESX, KVM, AWS, Azure)
+* Experience performing Linux system administration
+* working experience with common tools like 
+** Docker
+** systemd
+** openssl
+** etc
 
-    Experience in customer-service oriented environment, with strong teamwork, collaboration, adaptability, and initiative. Experience providing technical support to enterprise customers is required, along with exceptional verbal, written, organizational, presentation, and communication skills.
+* Familiarity with production-level virtualization platforms and/or cloud providers
+** [[VMware ESX]]
+** [[KVM]]
+** AWS
+** Azure
+
+* Experience in customer-service oriented environment
+** with strong teamwork
+** collaboration
+** adaptability
+** initiative.
+
+* Experience providing technical support to enterprise customers is required
+** along with exceptional 
+*** verbal
+*** written
+*** organizational
+*** presentation
+*** and communication skills.

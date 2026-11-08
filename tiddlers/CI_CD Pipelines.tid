@@ -1,0 +1,88 @@
+created: 20261107233858081
+modified: 20261108003259053
+title: CI/CD Pipelines
+type: text/vnd.tiddlywiki
+
+[[Open This|CI/CD Pipelines]]
+
+---
+
+https://www.redhat.com/en/topics/devops/what-cicd-pipeline
+
+[[1. Prerequisites]]
+
+* Git fundamentals: branches, merges, rebasing, tags, pull/merge requests
+* Command line basics: Bash, file permissions, environment variables, exit codes
+* YAML syntax: pipeline configs are almost always YAML (indentation, lists, maps, anchors)
+* Basic Linux: package managers, processes, SSH
+
+[[2. Core Concepts]]
+
+* CI (Continuous Integration): automatically build and test on every push
+* CD: Delivery (always deployable, manual release) vs Deployment (auto-released to production)
+* Pipeline anatomy: stages, jobs, steps, triggers
+* Runners/agents: the machines that execute jobs (shared vs self-hosted)
+* Artifacts vs cache: artifacts pass build outputs between jobs; cache speeds up dependency installs
+* Pipeline triggers: push, merge request, schedule, tag, manual, API
+
+[[3. Pipeline Stages (the typical flow)]]
+
+* Build: compile code, bundle assets
+* Test: unit, integration, end-to-end
+* Lint/static analysis: code style, type checks
+* Security scanning: SAST, dependency scanning, secret detection
+* Package: build Docker images, publish to a registry
+* Deploy: staging, then production
+
+[[4. Tooling]]
+
+Pick one platform to learn deeply first:
+
+* GitLab CI/CD (.gitlab-ci.yml): fits your GitLab setup
+* GitHub Actions (.github/workflows/*.yml)
+* Jenkins (Jenkinsfile): common in older enterprises
+
+Supporting tools:
+
+* Docker: building images, Dockerfiles, multi-stage builds, registries
+* Test frameworks for your language (pytest, Jest, JUnit, etc.)
+* Package registries: npm, PyPI, container registry
+
+[[5. Intermediate Topics]]
+
+* Secrets management (CI variables, masked/protected variables, Vault)
+* Environment-specific config (dev/staging/prod)
+* Conditional jobs (rules, only/except, needs)
+* Parallel and matrix jobs
+* Reusable templates and includes
+* Pipeline optimization: caching, DAG pipelines, fail-fast
+* Branching strategies: trunk-based, GitFlow, feature branches
+
+[[6. Deployment Strategies]]
+
+* Rolling updates
+* Blue/green deployments
+* Canary releases
+* Feature flags
+* Rollback procedures
+
+[[7. Infrastructure & Advanced]]
+
+* Infrastructure as Code: Terraform, Ansible
+* Kubernetes and Helm basics
+* GitOps: Argo CD, Flux
+* Observability: logs, metrics, alerting post-deploy
+* Pipeline security: least-privilege tokens, supply chain security, signed artifacts
+
+Suggested Order
+
+# Git + YAML + Bash
+# Write a simple pipeline: lint, then test, on every push
+# Add Docker build and push to a registry
+# Add a deploy job to a staging environment
+# Add secrets, caching, and rules
+# Explore Terraform, Kubernetes, and GitOps
+
+Practice Project Idea
+
+Take a small web app and build a pipeline that lints, tests, builds a Docker image, scans it, deploys to staging automatically, and deploys to production on manual approval.
