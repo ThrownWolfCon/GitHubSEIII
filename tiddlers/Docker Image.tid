@@ -1,5 +1,5 @@
 created: 20250307154312775
-modified: 20260524013315337
+modified: 20261108014856859
 tags: Docker
 title: Docker Image
 type: text/vnd.tiddlywiki
@@ -8,6 +8,6 @@ type: text/vnd.tiddlywiki
 
 ---
 
-[img[./files/images/docker/container-layers-diagram-update.png]]
+[img width=100% [./files/images/docker/container-layers-diagram-update.png]]
 
 [[docker rmi]]

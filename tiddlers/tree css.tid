@@ -1,11 +1,11 @@
 created: 20260522144935717
-modified: 20260715205009490
+modified: 20261108015319358
 tags: $:/tags/Stylesheet
 title: tree css
 type: text/vnd.tiddlywiki
 
 a.tc-tiddlylink-missing {
-color: #db89c8;
+color: #c90076;
 }
 /* Level 1 */
 .tc-toc li a {

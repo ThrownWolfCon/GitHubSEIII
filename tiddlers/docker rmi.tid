@@ -1,0 +1,11 @@
+created: 20250307174612809
+modified: 20250613214120210
+tags: 
+title: docker rmi
+type: text/vnd.tiddlywiki
+
+[[Open This|docker rmi]]
+
+---
+
+Removes image NOT container.
