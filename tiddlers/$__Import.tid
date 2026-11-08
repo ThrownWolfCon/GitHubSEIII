@@ -4,4 +4,8 @@ type: text/vnd.tiddlywiki
 
 The following tiddlers were imported:
 
-# [[docker rmi]]
+# [[sed: Change or Clobber]]
+# [[sed: Deletion]]
+# [[sed: Line-specific]]
+# [[sed: Negating Matches]]
+# [[sed: Substitution]]

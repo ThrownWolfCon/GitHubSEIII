@@ -1,0 +1,23 @@
+created: 20171119041559478
+modified: 20261108162355782
+tags: [[terminal command]] [[Linux System Administration]]
+title: sed command
+type: text/vnd.tiddlywiki
+
+https://www.computerhope.com/unix/used.htm
+
+---
+
+https://stackoverflow.com/questions/11245144/replace-whole-line-containing-a-string-using-sed#:~:text=You%20can%20use%20the%20change%20command%20to%20replace,'%2FTEXT_TO_BE_REPLACED%2FcThis%20line%20is%20removed%20by%20the%20admin.'%20%2Ftmp%2Ffoo
+
+```
+sed -i '/TEXT_TO_BE_REPLACED/c\This line is removed by the admin.' /tmp/foo
+```
+
+Dude...all you could ever need right here: https://www.gnu.org/software/sed/manual/sed.html
+
+<<<look
+If you can't get to this page then there are bigger issues in your life. :)
+<<<
+
+<<tabs "[tag[sed command]]" "SampleTabTwo" "$:/state/tab2" "tc-vertical">>

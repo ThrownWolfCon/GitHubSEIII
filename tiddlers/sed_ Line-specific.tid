@@ -1,0 +1,20 @@
+created: 20250320233254365
+modified: 20261108154111770
+tags: [[sed command]]
+title: sed: Line-specific
+type: text/vnd.tiddlywiki
+
+[[Open This|sed: Line-specific]]
+
+---
+
+Target specific lines with numbers or patterns.
+
+<<<changes "foo" to "bar" only on line 2.
+
+```bash
+sed '2s/foo/bar/' file.txt
+```
+
+[img[./files/images/linux/Screenshot from 2025-03-20 18-34-07.png]]
+<<<

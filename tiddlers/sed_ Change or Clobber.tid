@@ -1,0 +1,31 @@
+created: 20250321004027752
+modified: 20261108154035963
+tags: [[sed command]]
+title: sed: Change or Clobber
+type: text/vnd.tiddlywiki
+
+[[Open This|sed: Change or Clobber]]
+
+---
+
+```bash
+#this will replace the string PART in question.
+# Like "=TRUE" to "=FALSE"
+# bar foo foo foo foo
+# IMPORTANT_VARIABLE=FALSE
+# IMPORTANT_VARIABLE=FALSEFOR REALSIES!
+
+sed -i '/IMPORTANT_VARIABLE=/s/=TRUE/=FALSE/' file.txt
+
+##########################
+
+#this will CLOBBER the string line:
+# bar foo foo foo foo
+# IMPORTANT_VARIABLE=FALSE
+# IMPORTANT_VARIABLE=FALSE
+
+
+sed -i '/IMPORTANT_VARIABLE=/c\IMPORTANT_VARIABLE=FALSE' file.txt
+```
+
+[img[./files/images/linux/Screenshot from 2025-03-20 18-46-38.png]]

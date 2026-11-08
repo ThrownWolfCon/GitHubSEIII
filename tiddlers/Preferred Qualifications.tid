@@ -1,5 +1,5 @@
 created: 20261107204244586
-modified: 20261108012456184
+modified: 20261108162307642
 tags: Qualifications
 title: Preferred Qualifications
 type: text/vnd.tiddlywiki
@@ -21,7 +21,7 @@ type: text/vnd.tiddlywiki
 **** [[VS Code]]
 **** [[IntelliJ IDEA]]
 
-* Experience performing Linux system administration
+* Experience performing [[Linux System Administration]]
 * working experience with common tools like 
 ** [[Docker]]
 ** systemd

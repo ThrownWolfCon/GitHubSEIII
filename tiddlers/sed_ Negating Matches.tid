@@ -1,0 +1,16 @@
+created: 20250321005741976
+modified: 20250321005935291
+tags: [[sed command]]
+title: sed: Negating Matches
+type: text/vnd.tiddlywiki
+
+[[Open This|sed: Negating Matches]]
+
+---
+
+<<<Replaces foo with bar only on lines without IMPORTANT_VARIABLE.
+
+```bash
+sed '/IMPORTANT_VARIABLE/!s/foo/bar/' file.txt
+```
+<<<
