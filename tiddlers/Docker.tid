@@ -1,5 +1,5 @@
 created: 20261108012505970
-modified: 20261108012530983
+modified: 20261109025647384
 tags: [[Preferred Qualifications]]
 title: Docker
 type: text/vnd.tiddlywiki
@@ -7,3 +7,11 @@ type: text/vnd.tiddlywiki
 [[Open This|Docker]]
 
 ---
+
+<$linkcatcher actions="<$action-sendmessage $message='tm-modal' $param=<<navigateTo>>/>">
+<div class="modal-links">
+<div class="tc-table-of-contents">
+<<toc-selective-expandable "Docker">>
+</div>
+</div>
+</$linkcatcher>
