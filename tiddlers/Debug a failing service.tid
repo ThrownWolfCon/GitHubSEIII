@@ -1,0 +1,79 @@
+created: 20261110225718469
+modified: 20261110225748754
+tags: 
+title: Debug a failing service
+type: text/vnd.tiddlywiki
+
+[[Open This|Debug a failing service]]
+
+---
+
+3. Debug a failing service (the real exercise)
+
+Create a service that fails on purpose:
+
+bash
+sudo tee /etc/systemd/system/broken.service > /dev/null <<'EOF'
+[Unit]
+Description=Deliberately broken demo
+
+[Service]
+ExecStart=/usr/local/bin/does-not-exist
+EOF
+
+sudo systemctl daemon-reload
+sudo systemctl start broken.service
+
+It will fail. Now investigate like you would on the job:
+
+bash
+systemctl status broken.service
+journalctl -u broken.service --no-pager
+systemctl show broken.service -p Result -p ExecMainStatus -p ExecMainCode
+
+You’ll see status=203/EXEC, which means systemd couldn’t execute the binary. Learning to read these codes is a big part of the skill. Common ones:
+
+203/EXEC: binary missing or not executable
+200/CHDIR, 217/USER: bad working directory or user
+1 (or other small numbers): the program itself ran and exited with an error
+status=SEGV / ABRT: the program crashed
+
+Now make it fail differently. Edit the file (sudo systemctl edit --full broken.service) and change ExecStart to:
+
+ini
+ExecStart=/bin/sh -c 'echo "starting up"; echo "config missing" >&2; exit 1'
+
+Then:
+
+bash
+sudo systemctl daemon-reload
+sudo systemctl start broken.service
+journalctl -u broken.service --no-pager
+
+This time the log shows both lines, because journald captures stdout and stderr. The failure is now in the app, not systemd.
+
+Next, add crash looping and watch it:
+
+ini
+[Service]
+ExecStart=/bin/sh -c 'echo "crashing"; exit 1'
+Restart=on-failure
+RestartSec=2
+bash
+sudo systemctl daemon-reload
+sudo systemctl start broken.service
+journalctl -u broken.service -f
+
+You’ll see it restart repeatedly until systemd hits its start limit and gives up (Start request repeated too quickly). To clear that state:
+
+bash
+sudo systemctl reset-failed broken.service
+
+Cleanup:
+
+bash
+sudo systemctl stop broken.service
+sudo rm -f /etc/systemd/system/broken.service
+sudo rm -rf /etc/systemd/system/broken.service.d
+sudo systemctl daemon-reload
+sudo systemctl reset-failed
