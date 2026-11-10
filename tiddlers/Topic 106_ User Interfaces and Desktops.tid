@@ -1,0 +1,17 @@
+created: 20170831172945966
+modified: 20261110031133813
+tags: [[Linux System Administration]]
+title: Topic 106: User Interfaces and Desktops
+type: text/vnd.tiddlywiki
+
+[[Open This|Topic 106: User Interfaces and Desktops]]
+
+---
+
+* Topic 106: User Interfaces and Desktops
+** [[106.1 Install and configure X11]]
+*** <progress value="5" max="100"></progress>
+** [[106.2 Setup a display manager]]
+*** <progress value="5" max="100"></progress>
+** [[106.3 Accessibility]]
+*** <progress value="5" max="100"></progress>

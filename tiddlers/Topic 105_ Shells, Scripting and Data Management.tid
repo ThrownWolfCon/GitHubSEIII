@@ -1,0 +1,17 @@
+created: 20170831172133901
+modified: 20261110031043422
+tags: [[Linux System Administration]]
+title: Topic 105: Shells, Scripting and Data Management
+type: text/vnd.tiddlywiki
+
+[[Open This|Topic 105: Shells, Scripting and Data Management]]
+
+---
+
+* Topic 105: Shells, Scripting and Data Management
+** [[105.1 Customize and use the shell environment]]
+*** <progress value="100" max="100"></progress>
+** [[105.2 Customize or write simple scripts]]
+*** <progress value="70" max="100"></progress>
+** [[105.3 SQL data management]]
+*** <progress value="5" max="100"></progress>

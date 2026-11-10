@@ -1,0 +1,12 @@
+created: 20170831181152684
+modified: 20180104225903449
+title: Topic 107: Administrative Tasks
+type: text/vnd.tiddlywiki
+
+* Topic 107: Administrative Tasks
+** [[107.1 Manage user and group accounts and related system files]]
+*** <progress value="100" max="100"></progress>
+** [[107.2 Automate system administration tasks by scheduling jobs]]
+*** <progress value="5" max="100"></progress>
+** [[107.3 Localisation and internationalisation]]
+*** <progress value="5" max="100"></progress>

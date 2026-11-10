@@ -1,5 +1,5 @@
 created: 20261107204244586
-modified: 20261108162307642
+modified: 20261110030907389
 tags: Qualifications
 title: Preferred Qualifications
 type: text/vnd.tiddlywiki
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 ---
 
 * Proficiency in using and troubleshooting Git, 
-** GitHub 
+** [[GitHub]]
 ** or similar version control systems
 
 * strong understanding of
@@ -24,8 +24,8 @@ type: text/vnd.tiddlywiki
 * Experience performing [[Linux System Administration]]
 * working experience with common tools like 
 ** [[Docker]]
-** systemd
-** openssl
+** [[systemd]]
+** [[openssl]]
 ** etc
 
 * Familiarity with production-level virtualization platforms and/or cloud providers

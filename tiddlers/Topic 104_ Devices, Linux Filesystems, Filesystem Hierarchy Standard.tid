@@ -1,0 +1,21 @@
+created: 20170219155311196
+modified: 20261110030621153
+tags: [[Linux System Administration]]
+title: Topic 104: Devices, Linux Filesystems, Filesystem Hierarchy Standard
+type: text/vnd.tiddlywiki
+
+* Topic 104: Devices, Linux Filesystems, Filesystem Hierarchy Standard
+** [[104.1 Create partitions and filesystems]]
+*** <progress value="100" max="100"></progress>
+** [[104.2 Maintain the integrity of filesystems]]
+*** <progress value="100" max="100"></progress>
+** [[104.3 Control mounting and unmounting of filesystems]]
+*** <progress value="100" max="100"></progress>
+** [[104.4 Manage disk quotas]]
+*** <progress value="100" max="100"></progress>
+** [[104.5 Manage file permissions and ownership]]
+*** <progress value="100" max="100"></progress>
+** [[104.6 Create and change hard and symbolic links]]
+*** <progress value="100" max="100"></progress>
+** [[104.7 Find system files and place files in the correct location]]
+*** <progress value="100" max="100"></progress>

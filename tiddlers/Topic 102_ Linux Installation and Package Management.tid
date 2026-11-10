@@ -1,0 +1,17 @@
+created: 20170218212542262
+modified: 20261110030648878
+tags: [[Linux System Administration]]
+title: Topic 102: Linux Installation and Package Management
+type: text/vnd.tiddlywiki
+
+* Topic 102: Linux Installation and Package Management
+** [[102.1 Design hard disk layout]]
+*** <progress value="100" max="100"></progress>
+** [[102.2 Install a boot manager]]
+*** <progress value="100" max="100"></progress>
+** [[102.3 Manage shared libraries]]
+*** <progress value="100" max="100"></progress>
+** [[102.4 Use Debian package management]]
+*** <progress value="100" max="100"></progress>
+** [[102.5 Use RPM and YUM package management]]
+*** <progress value="100" max="100"></progress>

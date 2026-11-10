@@ -1,0 +1,23 @@
+created: 20170218232737980
+modified: 20261110030637718
+tags: [[Linux System Administration]]
+title: Topic 103: GNU and Unix Commands
+type: text/vnd.tiddlywiki
+
+*Topic 103: GNU and Unix Commands
+** [[103.1 Work on the command line]]
+*** <progress value="80" max="100"></progress>
+** [[103.2 Process text streams using filters]]
+*** <progress value="40" max="100"></progress>
+** [[103.3 Perform basic file management]]
+*** <progress value="100" max="100"></progress>
+** [[103.4 Use streams, pipes and redirects]]
+*** <progress value="40" max="100"></progress>
+** [[103.5 Create, monitor and kill processes]]
+*** <progress value="100" max="100"></progress>
+** [[103.6 Modify process execution priorities]]
+*** <progress value="100" max="100"></progress>
+** [[103.7 Search text files using regular expressions]]
+*** <progress value="100" max="100"></progress>
+** [[103.8 Perform basic file editing operations using vi]]
+*** <progress value="90" max="100"></progress>

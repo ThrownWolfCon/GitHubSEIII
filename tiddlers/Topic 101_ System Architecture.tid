@@ -1,0 +1,18 @@
+created: 20170218210405594
+modified: 20261110031005830
+tags: [[Linux System Administration]]
+title: Topic 101: System Architecture
+type: text/vnd.tiddlywiki
+
+[[Open This|Topic 101: System Architecture]]
+
+---
+
+* Topic 101: System Architecture
+** [[101.1 Determine and configure hardware settings]]
+*** <progress value="100" max="100"></progress>
+*** Note: Links to info, need to read and summarize into wiki.
+** [[101.2 Boot the system]]
+*** <progress value="100" max="100"></progress>
+** [[101.3 Change runlevels / boot targets and shutdown or reboot system]]
+*** <progress value="100" max="100"></progress>
