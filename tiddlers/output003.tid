@@ -1,0 +1,28 @@
+created: 20261110211329701
+modified: 20261110211359266
+tags: 
+title: output003
+type: text/vnd.tiddlywiki
+
+```ini
+thrownwolf@thrownwolf-5570:~/GitHubIII$ systemd-analyze critical-chain ssh.service
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+└─network.target @3.845s
+  └─NetworkManager.service @3.219s +626ms
+    └─dbus.service @3.138s +79ms
+      └─basic.target @3.070s
+        └─sockets.target @3.070s
+          └─snapd.socket @3.053s +16ms
+            └─sysinit.target @3.049s
+              └─snapd.apparmor.service @2.026s +1.022s
+                └─apparmor.service @1.921s +102ms
+                  └─local-fs.target @1.919s
+                    └─run-docker-netns-c103f6f68276.mount @13.057s
+                      └─local-fs-pre.target @698ms
+                        └─keyboard-setup.service @662ms +35ms
+                          └─systemd-journald.socket
+                            └─system.slice
+                              └─-.slice
+```

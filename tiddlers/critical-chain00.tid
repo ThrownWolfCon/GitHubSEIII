@@ -1,0 +1,33 @@
+created: 20261110205051995
+modified: 20261110205153764
+tags: 
+title: critical-chain00
+type: text/vnd.tiddlywiki
+
+```yml
+thrownwolf@thrownwolf-5570:~/GitHubIII$ systemd-analyze critical-chain
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+graphical.target @13.382s
+└─power-profiles-daemon.service @13.324s +57ms
+  └─multi-user.target @13.323s
+    └─docker.service @12.259s +1.064s
+      └─network-online.target @12.254s
+        └─NetworkManager-wait-online.service @3.853s +8.400s
+          └─NetworkManager.service @3.219s +626ms
+            └─dbus.service @3.138s +79ms
+              └─basic.target @3.070s
+                └─sockets.target @3.070s
+                  └─snapd.socket @3.053s +16ms
+                    └─sysinit.target @3.049s
+                      └─snapd.apparmor.service @2.026s +1.022s
+                        └─apparmor.service @1.921s +102ms
+                          └─local-fs.target @1.919s
+                            └─run-docker-netns-c103f6f68276.mount @13.057s
+                              └─local-fs-pre.target @698ms
+                                └─keyboard-setup.service @662ms +35ms
+                                  └─systemd-journald.socket
+                                    └─system.slice
+                                      └─-.slice
+```

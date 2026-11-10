@@ -1,0 +1,9 @@
+created: 20261110192745481
+modified: 20261110192751923
+tags: systemd
+title: systemd: Writing Unit Files
+type: text/vnd.tiddlywiki
+
+[[systemd: Writing Unit Files]]
+
+* systemd Writing unit files: creating a .service file so an app starts on boot, restarts on failure, runs as a specific user, and starts after the network or database is up (After=, Requires=, Restart=).

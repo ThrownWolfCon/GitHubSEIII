@@ -1,0 +1,50 @@
+created: 20261110203525218
+modified: 20261110203535304
+tags: 
+title: output002
+type: text/vnd.tiddlywiki
+
+```
+thrownwolf@thrownwolf-5570:~/GitHubIII$ systemctl list-dependencies multi-user.target
+multi-user.target
+● ├─alloy.service
+○ ├─anacron.service
+○ ├─apport.service
+● ├─atop.service
+● ├─atopacct.service
+● ├─avahi-daemon.service
+● ├─chrony.service
+● ├─console-setup.service
+● ├─containerd.service
+● ├─cron.service
+● ├─cups-browsed.service
+● ├─cups.path
+● ├─cups.service
+● ├─dbus.service
+○ ├─dmesg.service
+● ├─docker.service
+○ ├─e2scrub_reap.service
+○ ├─grub-initrd-fallback.service
+○ ├─grub2-common.service
+● ├─ModemManager.service
+● ├─networkd-dispatcher.service
+● ├─NetworkManager.service
+● ├─nvidia-powerd.service
+● ├─openvpn.service
+● ├─plymouth-quit-wait.service
+○ ├─plymouth-quit.service
+● ├─pmcd.service
+● ├─pmie.service
+● ├─pmlogger.service
+● ├─pmproxy.service
+● ├─qemu-kvm.service
+● │ │ ├─integritysetup.target
+● │ │ ├─local-fs.target
+● │ │ │ ├─-.mount
+● │ │ │ ├─boot-efi.mount
+● │ │ │ ├─systemd-fsck-root.service
+● │ │ │ ├─systemd-remount-fs.service
+● │ │ │ └─tmp.mount
+● │ │ ├─swap.target
+● │ │ │ └─swap.img.swap
+```

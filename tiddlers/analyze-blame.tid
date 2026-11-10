@@ -1,0 +1,23 @@
+created: 20261110210246556
+modified: 20261110210320673
+tags: 
+title: analyze-blame
+type: text/vnd.tiddlywiki
+
+```
+thrownwolf@thrownwolf-5570:~$ systemd-analyze blame
+
+12.800s fstrim.service
+12.648s apt-daily-upgrade.service
+ 8.658s apt-daily.service
+ 8.400s NetworkManager-wait-online.service
+ 4.851s plymouth-quit-wait.service
+ 4.081s plocate-updatedb.service
+ 2.766s fwupd.service
+ 2.423s systemd-suspend.service
+ 2.137s dev-rfkill.device
+ 2.137s sys-devices-virtual-misc-rfkill.device
+ 2.004s dev-tpm0.device
+ 2.004s sys-devices-platform-STM0125:00-tpm-tpm0.device
+ 1.868s dev-ttyS2.device
+```

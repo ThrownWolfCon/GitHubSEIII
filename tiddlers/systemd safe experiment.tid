@@ -1,0 +1,44 @@
+created: 20261110211159552
+modified: 20261110211213621
+tags: Backlog
+title: systemd safe experiment
+type: text/vnd.tiddlywiki
+
+4. Safe experiment: your own unit with ordering
+
+This creates a harmless service that just logs a line. It only runs when you start it, and it doesn’t touch existing units.
+
+bash
+sudo tee /etc/systemd/system/demo.service > /dev/null <<'EOF'
+[Unit]
+Description=Demo ordering unit
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/logger "demo.service ran after network-online"
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+sudo systemctl daemon-reload
+sudo systemctl start demo.service
+journalctl -u demo.service --no-pager
+systemctl list-dependencies demo.service
+systemd-analyze verify demo.service
+
+Then experiment: change After= to Before=, run daemon-reload, and compare systemctl show demo.service -p After -p Before. Try sudo systemctl enable demo.service and see where the symlink lands (/etc/systemd/system/multi-user.target.wants/), which is exactly how “WantedBy” works.
+
+Cleanup:
+
+bash
+sudo systemctl disable --now demo.service
+sudo rm /etc/systemd/system/demo.service
+sudo systemctl daemon-reload
+What to avoid
+systemctl isolate <target> on a desktop or remote machine. It stops everything not in that target and can kill your session.
+systemctl set-default to something odd, since that changes what boots next time. If you want to practice it, set it and then set it right back.
+mask, disable, or editing existing system units. Stick to your own demo unit.
