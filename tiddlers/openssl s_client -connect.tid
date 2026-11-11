@@ -1,0 +1,29 @@
+created: 20230126142304567
+modified: 20230404234133210
+tags: openssl [[Connectivity Tests]]
+title: openssl s_client -connect
+type: text/vnd.tiddlywiki
+
+[[Open This|openssl s_client -connect]]
+
+---
+
+Dive into this a little bit more...
+
+<<<s_client -connect
+`-connect host:port` - who to connect to (default is localhost:4433)
+
+```
+openssl s_client -connect policy1.obaid.local:24345
+```
+<<<
+
+<<<chatGPT
+The command "openssl s_client -connect" is a command-line tool that allows you to establish a secure SSL/TLS connection to a remote server and display the certificate information.
+
+When you run the command "openssl s_client -connect", it initiates a client connection to a remote server specified by the hostname and port number. The "s_client" part of the command tells OpenSSL to act as an SSL/TLS client, while the "-connect" option specifies the server address and port to connect to.
+
+Once the connection is established, the command will print out the SSL/TLS handshake messages and display the remote server's SSL/TLS certificate information, including the certificate chain, the subject and issuer of each certificate, and the expiration date of each certificate.
+
+The "openssl s_client -connect" command can be useful for troubleshooting SSL/TLS connection issues, verifying the identity of a remote server, and checking the validity and expiration date of SSL/TLS certificates. It can also be used to test SSL/TLS servers for security vulnerabilities or misconfigurations.
+<<<

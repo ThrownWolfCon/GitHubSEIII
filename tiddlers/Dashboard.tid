@@ -1,5 +1,5 @@
 created: 20261107162043606
-modified: 20261107212153130
+modified: 20261111184513086
 tags: 
 title: Dashboard
 type: text/vnd.tiddlywiki
@@ -11,8 +11,9 @@ type: text/vnd.tiddlywiki
 [img width=80% [./files/images/michael hart_26-10-20_Grafana_1140.png]]
 [img width=80% [./files/images/logo-03.cc5e5332.png]]
 
-!<span style="color: #00d892;">Support Engineer III</span>
+<$transclude tiddler="use_know" mode="block"/>
 
+!<span style="color: #00d892;">Support Engineer III</span>
 
 <$linkcatcher actions="<$action-sendmessage $message='tm-modal' $param=<<navigateTo>>/>">
 <div class="modal-links">

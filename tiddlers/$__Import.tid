@@ -4,4 +4,7 @@ type: text/vnd.tiddlywiki
 
 The following tiddlers were imported:
 
-# [[$:/plugins/telmiger/details]]
+# [[2.1 Command Line Basics]]
+# [[2.2 Using the Command Line to Get Help]]
+# [[2.3 Using Directories and Listing Files]]
+# [[2.4 Creating, Moving and Deleting Files]]
