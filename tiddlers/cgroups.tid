@@ -1,0 +1,39 @@
+created: 20261111171013343
+modified: 20261111171041598
+tags: 
+title: cgroups
+type: text/vnd.tiddlywiki
+
+[[Open This|cgroups]]
+
+---
+
+!! cgroups
+
+''cgroups'' (control groups) is a Linux kernel feature that lets you organize processes into groups and then limit, measure, and isolate the resources those groups can use.
+
+!!! What it controls
+
+* ''CPU'': how much processor time a group gets
+* ''Memory'': a cap on RAM (and swap) usage, with the kernel killing processes if the group exceeds it
+* ''I/O'': disk read/write bandwidth
+* ''PIDs'': how many processes a group can spawn
+* ''Others'': network priority, device access, and more
+
+!!! How it works
+
+Cgroups are arranged as a hierarchy, exposed as a virtual filesystem (usually mounted at `/sys/fs/cgroup`). You create a directory for a group, write limits into files inside it, and add process IDs to it. Child groups inherit constraints from their parents.
+
+!!! Why it matters
+
+* ''Containers'': Docker, Podman, and Kubernetes use cgroups to enforce CPU and memory limits on containers. (Namespaces handle the isolation of what a process can //see//; cgroups handle how much it can //use//.)
+* ''systemd'': Every service systemd runs gets its own cgroup, which is how it reliably tracks and stops all processes belonging to a service. Directives in the `[Service]` section like `MemoryMax=`, `CPUQuota=`, and `TasksMax=` are just friendly wrappers around cgroup settings.
+
+!!! Versions
+
+There are two: cgroups v1 (older, with a separate hierarchy per resource type) and cgroups v2 (a single unified hierarchy, now the default on most modern distributions).
+
+!!! Useful commands
+
+* See which cgroup a process is in: `cat /proc/<pid>/cgroup`
+* Browse the live hierarchy: `systemd-cgls`
