@@ -1,0 +1,15 @@
+created: 20261112164518180
+modified: 20261112164614578
+tags: Backlog
+title: Git Questions
+type: text/vnd.tiddlywiki
+
+[[Open This|Git Questions]]
+
+---
+
+* What’s the difference between merge and rebase?
+* You committed to the wrong branch. How do you fix it?
+* How do you recover a deleted branch or a commit you reset away?
+* Your push was rejected. What do you do?
+* What’s git reset --soft vs --hard?
