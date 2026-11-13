@@ -1,0 +1,46 @@
+created: 20261113034029929
+modified: 20261113155503976
+tags: 
+title: git log --oneline --graph --all -20
+type: text/vnd.tiddlywiki
+
+[[Open This|git log --oneline --graph --all -20]]
+
+---
+
+<<< <<copy-to-clipboard "git log --oneline --graph --all -20">>
+`git log --oneline --graph --all -20`
+<<< shows where you and your branches actually are.
+
+<$details summary="output">
+<$transclude tiddler="outsidetiddler" mode="block"/>
+</$details>
+
+
+```git
+thrownwolf@thrownwolf-5570:~/ThrownEverPure$ git log --oneline --graph --all -30
+
+* db8bb93 (HEAD -> main, origin/main, origin/HEAD) Adding copy-to-clipboard in some of the networking things.
+* d07d17f Add .gitignore and untrack wiki state/log files
+* ceb3ee0 Update networking tiddlers
+* 7f04836 Adding headshot...for what it will help :)
+* da3bf69 struggled today, sending up what I did changed.
+* 602db2a Lots of Interview readiness things
+* 0b751d8 Adding Interviews things! Do no be caught awares!
+* f0443f4 Did some OSI Layer notes while in bed last night.
+* 7618641 Some Networking and some Storage things
+* 669028e Docker Compose and other things
+* 70472d8 Linux Side Storage 1
+* b06320e Linux Side Networking 4
+* 310e899 Okay, I just had to add the Beleren font.
+* e66b3ed Linux Side Networking 3
+* 1d2b201 Linux Side Networking 2
+* 2f8b3d6 Linux Side Networking 1
+* 688145f Adding some SAN notes
+* eb168b8 Trickle up 1
+* 4580569 More to WHAT YOU BRING
+* 4f4b471 What you bring...things
+* b4edd5f what you'll do
+* d403b6a booting up the wiki
+* ef362d4 first commit
+```

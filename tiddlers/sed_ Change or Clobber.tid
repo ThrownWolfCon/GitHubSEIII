@@ -1,5 +1,5 @@
 created: 20250321004027752
-modified: 20261108154035963
+modified: 20261113054649467
 tags: [[sed command]]
 title: sed: Change or Clobber
 type: text/vnd.tiddlywiki
@@ -28,4 +28,4 @@ sed -i '/IMPORTANT_VARIABLE=/s/=TRUE/=FALSE/' file.txt
 sed -i '/IMPORTANT_VARIABLE=/c\IMPORTANT_VARIABLE=FALSE' file.txt
 ```
 
-[img[./files/images/linux/Screenshot from 2025-03-20 18-46-38.png]]
+[img width=100% [./files/images/linux/Screenshot from 2025-03-20 18-46-38.png]]
